@@ -1,0 +1,3 @@
+function preempt(chunk)
+
+end

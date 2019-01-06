@@ -1,0 +1,3 @@
+[submodule "bitop-lua"]
+	path = bitop-lua
+	url = https://github.com/AlberTajuelo/bitop-lua.git

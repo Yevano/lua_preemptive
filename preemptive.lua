@@ -1,3 +1,5 @@
-function preempt(chunk)
+require "chunk"
 
+function preempt(chunk)
+    parse_chunk(chunk)
 end

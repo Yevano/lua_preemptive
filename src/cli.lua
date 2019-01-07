@@ -1,4 +1,4 @@
-require "preemptive"
+require "src/preemptive"
 
 local args = { ... }
 local file = args[1]

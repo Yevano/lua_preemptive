@@ -1,3 +1,8 @@
 require "preemptive"
 
-preempt(function() end)
+local args = { ... }
+local file = args[1]
+local chunk = loadfile(file)
+
+
+preempt(chunk)
